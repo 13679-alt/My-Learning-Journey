@@ -1,1 +1,19 @@
-
+#MUTATIONS PROBLEM ON HACKERRANK
+///
+Main basic idea behind the question :How to make changes in a string , by creating it as a list 
+///
+Question Problem: 1)Take a string and position where a letter has to be replaced as input
+2)change the position of a character in given string by the intended character.
+///
+How I solved the question : 1) I read about lists from python guide available on google and understood the syntax required to tackle the question
+2) Ran the code several times to find several errors in code 
+3) The code that worked for me:
+    l = list(string)      #converts each character of the string into a list element
+    l[position] = character      #replaces element at the specified index
+    string = ''.join(l)       #combines the list elements into one string
+    return string
+4) Problems that I faced : i) The variables like s they already had given in the code were not to be used
+ii) instead of return function , I was using print function which didnt solve the whole problem. 
+//////
+5) Final learnings that I need to keep revisiting: 1)Strings are immutable, lists are not 
+2) print() displays a value. return sends  value back from the function.
