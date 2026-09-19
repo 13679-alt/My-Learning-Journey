@@ -17,5 +17,6 @@ count=0
 ii) I forgot count =0 for long time while writing the code
 iii) waas incorrectly indenting return statement
 //////
-5) Final learnings that I need to keep revisiting: ##Core concept of this question which is how to find/count substrings in a string
+5) Final learnings that I need to keep revisiting: ##1)Core concept of this question which is how to find/count substrings in a string
+2)Scan every possible starting index and compare a window in string type of questions .
 
