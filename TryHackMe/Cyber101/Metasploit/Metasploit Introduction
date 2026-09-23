@@ -9,7 +9,7 @@ ii)Encoders (tries to protect exploits and payloads from antivirus), evasion (ac
 > show options ##
 > back - leaves context 
 > set_[parametername_value] -(example : set rhosts ip_address of target machine or set rport portnumber
-4)Rough Idea that I could interpret : 
+4)My understanding of the Metasploit workflow : 
 Start Metasploit
      ↓
 Search for relevant module
