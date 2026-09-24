@@ -1,0 +1,16 @@
+# TEXT ALIGNMENT RELATED PROBLEM ON HACKERRANK
+///
+Main basic idea behind the question :creating a figue using core concept of text alignment pattern
+///
+Question Problem: 1)Take an integer input from user .
+2)Using integer as thickness value print desired logo as shown by them in sample output
+///
+How I solved the question : 1) There was a clear description of use of text alignment and was explained in an elaborate manner
+2) I read some extra sources regarding text alingment and got to know about similar command (f{string<>^value})
+3) The abswer was sort of fill in the blanks , where I had to understand the code and understand what kind of alignment command to use 
+
+4) Problems that I faced : i) using for i and then using thickness to get the desired outpout was a little bit of confusing 
+ii)Core concept of text alignmet was very deeply used and took me some time to understand why c values were used multiple times within the same print function
+//////
+5) Final learnings that I need to keep revisiting: ##1)string.rjust(width,'character_value')- aligns test to right
+2) .ljust- left and .center- center
