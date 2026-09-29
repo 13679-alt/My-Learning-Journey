@@ -1,0 +1,20 @@
+#PROBLEM ON STRING FORMATTING HACKERRANK
+///
+Main basic idea behind the question :  Print octal , decimal , hexadecimal , binary values of an integer. 
+///
+Question Problem Analysis: 1)An integer has already been taken as input 
+2)Print decimal , octal , hexadecimal(capitalised) , binary values in the outpust horizontally in same order
+///
+How I solved the question : 1) Since the question expected outpual of all integers from (1,number_formatted) : I knew it requires an iteration statement 
+2) To understand how to print formatted strings I read from https://www.w3schools.com/python/python_string_formatting.asp
+3) I had the desired output within after few minutes of reading ; the biggest problem was spacing
+4) Since , it was quite clear that there was a space between each output i put ,"", to solve the example cse 
+5) But , it did not worked
+
+The biggest challenge of this question: i) I immediately started alligning my command using f"{:<}" command but it did not work
+ii) The required hint was itself in the question :  Each value should be space-padded to match the width of the binary value of number
+iii) Then I defined width using len(f"{n:b}") and used f"{i:{w}d}" instead in the print statement and it worked.
+//////
+5) Final learnings that I need to keep revisiting: ##1)Core concept of this question which is how to print o,d,x,and b values of integer
+2)How hints can be hidden in problem statement
+3)Usage of f"{i:{w}d}" type commands. 
